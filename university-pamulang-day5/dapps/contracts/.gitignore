@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+
+# Env files
+.env
+
+#hardhat files
+/cache
+/artifacts
+
+# type chain files
+/typechain
+/typechain-types
+
+# solidyty coverage files
+/coverage
+/coverage.json
+
+ignition/deployments/chain-31337
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+!.yarn/cache
+.pnp.*
+
+# Misc
+.DS_Store
+
+# IDE
+.vscode
+.idea
