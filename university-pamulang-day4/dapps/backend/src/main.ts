@@ -7,7 +7,16 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Simple Storage dApp API')
-    .setDescription('The Simple Storage dApp API description')
+    .setDescription(`
+Avalanche Full Stack dApp – Day 4
+
+Nama Lengkap : Alfitri Deviani
+
+NIM          : 221011450319
+
+Backend API for Simple Storage Smart Contract
+Using NestJS + Avalanche Fuji Testnet
+    `)
     .setVersion('1.0')
     .addTag('simple-storage')
     .build();
